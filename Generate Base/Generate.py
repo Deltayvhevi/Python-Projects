@@ -66,14 +66,13 @@ elif fileType == 3: # csharp
     cs.close()
 
 elif fileType == 4:
-	styleSheet = bool(input("Do you want a css styleSheet? (boolean):  "))
+	
 	html = open("index.html", "x")
 	html.write("<!-- made by Delta -->\n")
 	html.write("<!DOCTYPE html>\n")
 	html.write("<html>\n")
 	html.write("	<head>\n")
 	html.write("\n")
-	
 	html.write("		<title>Basic Html File </title>\n")
 	html.write('		<link rel ="stylesheet" type ="text/css"\n')
 	html.write('		href="style.css">')
